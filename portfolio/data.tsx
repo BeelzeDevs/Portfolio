@@ -160,7 +160,7 @@ export const dataPortfolio = [
         id: 3,
         title: "Node API Rest",
         descripcion:"API RESTful para backend de tienda e-commerce con 3 niveles: Admin, Proveedor, Cliente.",
-        gif: "/NodeTienda.PNG",
+        gif: "/nodeTienda.PNG",
         urlGithub: "https://github.com/BeelzeDevs/NodeTienda/tree/main/NodeTienda",
         urlDemo: "",
         urlYoutube:""
