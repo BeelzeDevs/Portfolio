@@ -1,3 +1,5 @@
+import type { Variants, Transition } from "framer-motion";
+
 export const transitionVariantsPage = {
     initial :{
         x:"100%",
@@ -13,29 +15,26 @@ export const transitionVariantsPage = {
     }
 }
 
-export const fadeIn =  (position:string)=>{
-    return {
-        active:{
-            y:0,
-            x:0,
-            opacity:1,
-            transition:{
-                type:"tween",
-                duration:1.4,
-                delay:0.5,
-                ease:[0.25,0.25,0.25,0.75]
-            }
-        },
-        inactive:{
-            y: position === 'bottom' ? -80:0,
-            x: position === 'right' ? 80:0,
-            opacity: 0,
-            transition:{
-                type:"tween",
-                duration:1.4,
-                delay:0.5,
-                ease:[0.25,0.25,0.25,0.75]
-            }
-        }
-    }
-}
+export const fadeIn = (position: "right" | "bottom"): Variants => {
+  const transition: Transition = {
+    type: "tween",
+    duration: 1.4,
+    delay: 0.5,
+    ease: [0.25, 0.25, 0.25, 0.75],
+  };
+
+  return {
+    active: {
+      y: 0,
+      x: 0,
+      opacity: 1,
+      transition,
+    },
+    inactive: {
+      y: position === "bottom" ? -80 : 0,
+      x: position === "right" ? 80 : 0,
+      opacity: 0,
+      transition,
+    },
+  };
+};
