@@ -151,7 +151,7 @@ export const dataPortfolio = [
         id: 2,
         title: ".Net Core API REST",
         descripcion:"API RESTful para backend de software gastronómico. Deploy Neon.Tech y Render",
-        gif: "/tiendaNetApi.png",
+        gif: "/tiendaNetApi.PNG",
         urlGithub: "https://github.com/BeelzeDevs/Backend-TiendaNetAPI",
         urlDemo: "https://backend-tiendanetapi.onrender.com/swagger/index.html",
         urlYoutube:""
@@ -160,7 +160,7 @@ export const dataPortfolio = [
         id: 3,
         title: "Node API Rest",
         descripcion:"API RESTful para backend de tienda e-commerce con 3 niveles: Admin, Proveedor, Cliente.",
-        gif: "/NodeTienda.png",
+        gif: "/NodeTienda.PNG",
         urlGithub: "https://github.com/BeelzeDevs/NodeTienda/tree/main/NodeTienda",
         urlDemo: "",
         urlYoutube:""
