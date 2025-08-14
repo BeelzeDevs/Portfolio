@@ -142,7 +142,7 @@ export const dataPortfolio = [
         id: 0,
         title: "Notes Full Stack",
         gif: "/Notas.gif",
-        descripcion:"Página full-stack con Notas y sus Categorías: \nBackend:.Net 8.0, \nFrontend:Next.js/Typescript, \ngit bash script para inciar.\nCss Tailwind.",
+        descripcion:"Página full-stack con Notas y sus Categorías: Backend:.Net 8.0, Frontend:Next.js/Typescript, git bash script para inciar. Css Tailwind.",
         urlGithub: "https://github.com/BeelzeDevs/Notas-Net-Next",
         urlDemo: "",
         urlYoutube:"",
