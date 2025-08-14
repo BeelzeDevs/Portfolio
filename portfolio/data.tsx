@@ -139,6 +139,15 @@ export const serviceData = [
 
 export const dataPortfolio = [
     {
+        id: 0,
+        title: "Notes Full Stack",
+        gif: "/Notas.gif",
+        descripcion:"Página full-stack con Notas y sus Categorías: Backend:.Net 8.0, Frontend:Next.js/Typescript, git bash cript para inciar. Css Tailwind.",
+        urlGithub: "https://github.com/BeelzeDevs/Notas-Net-Next",
+        urlDemo: "",
+        urlYoutube:"",
+    },
+    {
         id: 1,
         title: "React Movie",
         gif: "/beelzemovie.gif",
