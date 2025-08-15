@@ -151,7 +151,7 @@ export const dataPortfolio = [
         id: 1,
         title: "React Movie",
         gif: "/beelzemovie.gif",
-        descripcion:"Página series y películas consumiendo Api de themoviedb. Deploy Vercel",
+        descripcion:"Página de series y películas, creada con Vite/React, consumiendo Api de themoviedb. Deploy Vercel",
         urlGithub: "https://github.com/BeelzeDevs/ReactMovie",
         urlDemo: "https://beelzemovie.vercel.app",
         urlYoutube:"",
