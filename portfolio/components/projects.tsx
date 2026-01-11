@@ -9,7 +9,7 @@ const Projects = () => {
                         <span className="text-secondary font-bold">trabajos realizados</span>
                     </h1>
                     <div className="relative z-10 grid max-w-7xl gap-4 
-                    mx-auto mt-4 md:grid-cols-3 sm:grid-cols-2">
+                    mx-auto mt-4 lg:grid-cols-3 sm:grid-cols-2">
                         {dataPortfolio.map((data)=>(
                             <PortfolioBox key={data.id} data={data} />
 
