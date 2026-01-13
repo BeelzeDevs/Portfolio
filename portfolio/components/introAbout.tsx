@@ -30,7 +30,7 @@ const IntroAbout = () => {
                         Soy Ignacio Aprile, Técnico Superior en Programación con perfil full-stack y formación en análisis de datos. Comencé mi camino en la UTN, escribiendo algoritmos en papel y desarrollando mis primeros programas en C++, lo que me dio una base sólida en lógica y programación orientada a objetos.
                     </p>
                     <p>
-                        Hoy me especializo en el desarrollo con .NET, donde me siento muy cómodo construyendo APIs, arquitecturas limpias y soluciones escalables. Sin embargo, también disfruto trabajar con tecnologías del ecosistema JavaScript como React, Next.js o Node.js, lo que me permite adaptarme con fluidez a distintos entornos y desafíos.
+                        Hoy me especializo en el desarrollo con .NET, donde me siento muy cómodo construyendo APIs, arquitecturas limpias y soluciones escalables. Sin embargo, también disfruto trabajar con tecnologías del ecosistema JavaScript como React, Next.js, Vue.js o Node.js, lo que me permite adaptarme con fluidez a distintos entornos y desafíos.
                     </p>
                     <p>
                         Me apasiona la tecnología no solo por lo que permite crear, sino también por el desafío constante que representa. Busco formar parte de equipos donde pueda aportar valor, seguir creciendo profesionalmente y colaborar en el desarrollo de soluciones que marquen una diferencia.
