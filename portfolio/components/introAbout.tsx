@@ -9,18 +9,18 @@ const IntroAbout = () => {
                 Acerca <span className="font-bold text-secondary">de mí</span>
             </h1>
             <div className="flex flex-col justify-center items-center h-full w-full mt-10 px-5 ">
-                <Image src={"/profile1.png"} alt="Profile pic"
+                <Image src={"/profile1.jpeg"} alt="Profile pic"
                 width={200} height={200}
-                className="rounded-full border-2 border-rounded-xl border-secondary"
+                className="rounded-full border-2 hover:border-secondary shadow-xl shadow-secondary/50 border-secondary/50"
                 />
-                <div className="flex justify-around w-full mt-5 gap-10 w-full">
+                <div className="flex justify-around w-full mt-5 gap-10 ">
                     <button onClick={() => window.open("/cv-es.pdf", "_blank")}
-                    className="px-5 py-3 rounded-xl border-2 border-secondary text-xl md:text-2xl text-secondary text-slate-100
+                    className="px-5 py-3 rounded-xl border-2 border-secondary text-xl md:text-2xl text-slate-100
                     cursor-pointer hover:shadow-xl hover:shadow-secondary/50 ">
                         Cv Español
                     </button>
                     <button onClick={() => window.open("/cv-en.pdf", "_blank")}
-                    className="px-5 py-3 rounded-xl border-2 border-secondary text-xl md:text-2xl text-secondary text-slate-100
+                    className="px-5 py-3 rounded-xl border-2 border-secondary text-xl md:text-2xl text-slate-100
                     cursor-pointer hover:shadow-xl hover:shadow-secondary/50">
                         Cv English
                     </button>
